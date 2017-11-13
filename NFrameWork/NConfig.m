@@ -10,6 +10,7 @@
 #import "GoogleAnalytics/Library/GAI.h"
 #import "CardIO/CardIO.h"
 #import "AppsFlyer/AppsFlyerTracker.h"
+@import NCore;
 
 @implementation NConfig
 
