@@ -11,6 +11,50 @@
 		8D3F6BBF1FBA150B00DDF0AC /* NConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */; };
 		8D3F6BC01FBA150B00DDF0AC /* NConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */; };
 		8D3F6C071FBA1E0B00DDF0AC /* NFrameWork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F6C061FBA1E0B00DDF0AC /* NFrameWork.podspec */; };
+		8D3F6C151FBA334600DDF0AC /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C091FBA334600DDF0AC /* CardIO.h */; };
+		8D3F6C161FBA334600DDF0AC /* CardIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F6C0A1FBA334600DDF0AC /* CardIO.m */; };
+		8D3F6C171FBA334600DDF0AC /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C0B1FBA334600DDF0AC /* CardIOCreditCardInfo.h */; };
+		8D3F6C181FBA334600DDF0AC /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C0C1FBA334600DDF0AC /* CardIODetectionMode.h */; };
+		8D3F6C191FBA334600DDF0AC /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C0D1FBA334600DDF0AC /* CardIOPaymentViewController.h */; };
+		8D3F6C1A1FBA334600DDF0AC /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C0E1FBA334600DDF0AC /* CardIOPaymentViewControllerDelegate.h */; };
+		8D3F6C1B1FBA334600DDF0AC /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C0F1FBA334600DDF0AC /* CardIOUtilities.h */; };
+		8D3F6C1C1FBA334600DDF0AC /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C101FBA334600DDF0AC /* CardIOView.h */; };
+		8D3F6C1D1FBA334600DDF0AC /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C111FBA334600DDF0AC /* CardIOViewDelegate.h */; };
+		8D3F6C1E1FBA334600DDF0AC /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C121FBA334600DDF0AC /* libCardIO.a */; };
+		8D3F6C1F1FBA334600DDF0AC /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C131FBA334600DDF0AC /* libopencv_core.a */; };
+		8D3F6C201FBA334600DDF0AC /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C141FBA334600DDF0AC /* libopencv_imgproc.a */; };
+		8D3F6C471FBA343700DDF0AC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C451FBA342000DDF0AC /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C481FBA344000DDF0AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C3E1FBA342000DDF0AC /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C491FBA344F00DDF0AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C3F1FBA342000DDF0AC /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C4A1FBA345D00DDF0AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C3B1FBA341F00DDF0AC /* CoreGraphics.framework */; };
+		8D3F6C4B1FBA346A00DDF0AC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C401FBA342000DDF0AC /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C4C1FBA347300DDF0AC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C411FBA342000DDF0AC /* CoreVideo.framework */; };
+		8D3F6C4D1FBA347F00DDF0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C421FBA342000DDF0AC /* Foundation.framework */; };
+		8D3F6C4E1FBA348800DDF0AC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C3D1FBA342000DDF0AC /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C4F1FBA349200DDF0AC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C431FBA342000DDF0AC /* OpenGLES.framework */; };
+		8D3F6C501FBA349A00DDF0AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C441FBA342000DDF0AC /* QuartzCore.framework */; };
+		8D3F6C511FBA34A300DDF0AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C461FBA342000DDF0AC /* Security.framework */; };
+		8D3F6C521FBA34AC00DDF0AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C3C1FBA341F00DDF0AC /* UIKit.framework */; };
+		8D3F6C621FBA357E00DDF0AC /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C561FBA357E00DDF0AC /* GAI.h */; };
+		8D3F6C631FBA357E00DDF0AC /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C571FBA357E00DDF0AC /* GAIDictionaryBuilder.h */; };
+		8D3F6C641FBA357E00DDF0AC /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C581FBA357E00DDF0AC /* GAIEcommerceFields.h */; };
+		8D3F6C651FBA357E00DDF0AC /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C591FBA357E00DDF0AC /* GAIEcommerceProduct.h */; };
+		8D3F6C661FBA357E00DDF0AC /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C5A1FBA357E00DDF0AC /* GAIEcommerceProductAction.h */; };
+		8D3F6C671FBA357E00DDF0AC /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C5B1FBA357E00DDF0AC /* GAIEcommercePromotion.h */; };
+		8D3F6C681FBA357E00DDF0AC /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C5C1FBA357E00DDF0AC /* GAIFields.h */; };
+		8D3F6C691FBA357E00DDF0AC /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C5D1FBA357E00DDF0AC /* GAILogger.h */; };
+		8D3F6C6A1FBA357E00DDF0AC /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C5E1FBA357E00DDF0AC /* GAITrackedViewController.h */; };
+		8D3F6C6B1FBA357E00DDF0AC /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C5F1FBA357E00DDF0AC /* GAITracker.h */; };
+		8D3F6C6E1FBA35D300DDF0AC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C6D1FBA35C300DDF0AC /* CoreData.framework */; };
+		8D3F6C701FBA35EA00DDF0AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C6F1FBA35E100DDF0AC /* SystemConfiguration.framework */; };
+		8D3F6C721FBA360500DDF0AC /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C711FBA360500DDF0AC /* libGoogleAnalyticsServices.a */; };
+		8D3F6C761FBA36AC00DDF0AC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C751FBA36A500DDF0AC /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C781FBA36C900DDF0AC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C771FBA36C300DDF0AC /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D3F6C831FBA3BAE00DDF0AC /* AppsFlyerCrossPromotionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C7E1FBA3BAE00DDF0AC /* AppsFlyerCrossPromotionHelper.h */; };
+		8D3F6C841FBA3BAE00DDF0AC /* AppsFlyerLinkGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C7F1FBA3BAE00DDF0AC /* AppsFlyerLinkGenerator.h */; };
+		8D3F6C851FBA3BAE00DDF0AC /* AppsFlyerShareInviteHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C801FBA3BAE00DDF0AC /* AppsFlyerShareInviteHelper.h */; };
+		8D3F6C861FBA3BAE00DDF0AC /* AppsFlyerTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6C811FBA3BAE00DDF0AC /* AppsFlyerTracker.h */; };
+		8D3F6C871FBA3BAE00DDF0AC /* libAppsFlyerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F6C821FBA3BAE00DDF0AC /* libAppsFlyerLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +64,52 @@
 		8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NConfig.h; sourceTree = "<group>"; };
 		8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NConfig.m; sourceTree = "<group>"; };
 		8D3F6C061FBA1E0B00DDF0AC /* NFrameWork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NFrameWork.podspec; sourceTree = "<group>"; };
+		8D3F6C091FBA334600DDF0AC /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		8D3F6C0A1FBA334600DDF0AC /* CardIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardIO.m; sourceTree = "<group>"; };
+		8D3F6C0B1FBA334600DDF0AC /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		8D3F6C0C1FBA334600DDF0AC /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		8D3F6C0D1FBA334600DDF0AC /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		8D3F6C0E1FBA334600DDF0AC /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		8D3F6C0F1FBA334600DDF0AC /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		8D3F6C101FBA334600DDF0AC /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		8D3F6C111FBA334600DDF0AC /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		8D3F6C121FBA334600DDF0AC /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		8D3F6C131FBA334600DDF0AC /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		8D3F6C141FBA334600DDF0AC /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		8D3F6C3B1FBA341F00DDF0AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D3F6C3C1FBA341F00DDF0AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D3F6C3D1FBA342000DDF0AC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8D3F6C3E1FBA342000DDF0AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8D3F6C3F1FBA342000DDF0AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D3F6C401FBA342000DDF0AC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8D3F6C411FBA342000DDF0AC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8D3F6C421FBA342000DDF0AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D3F6C431FBA342000DDF0AC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8D3F6C441FBA342000DDF0AC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D3F6C451FBA342000DDF0AC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8D3F6C461FBA342000DDF0AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8D3F6C541FBA357E00DDF0AC /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		8D3F6C561FBA357E00DDF0AC /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		8D3F6C571FBA357E00DDF0AC /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		8D3F6C581FBA357E00DDF0AC /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		8D3F6C591FBA357E00DDF0AC /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		8D3F6C5A1FBA357E00DDF0AC /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		8D3F6C5B1FBA357E00DDF0AC /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		8D3F6C5C1FBA357E00DDF0AC /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		8D3F6C5D1FBA357E00DDF0AC /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		8D3F6C5E1FBA357E00DDF0AC /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		8D3F6C5F1FBA357E00DDF0AC /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		8D3F6C601FBA357E00DDF0AC /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		8D3F6C6D1FBA35C300DDF0AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8D3F6C6F1FBA35E100DDF0AC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8D3F6C711FBA360500DDF0AC /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		8D3F6C751FBA36A500DDF0AC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		8D3F6C771FBA36C300DDF0AC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8D3F6C7E1FBA3BAE00DDF0AC /* AppsFlyerCrossPromotionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerCrossPromotionHelper.h; sourceTree = "<group>"; };
+		8D3F6C7F1FBA3BAE00DDF0AC /* AppsFlyerLinkGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerLinkGenerator.h; sourceTree = "<group>"; };
+		8D3F6C801FBA3BAE00DDF0AC /* AppsFlyerShareInviteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerShareInviteHelper.h; sourceTree = "<group>"; };
+		8D3F6C811FBA3BAE00DDF0AC /* AppsFlyerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
+		8D3F6C821FBA3BAE00DDF0AC /* libAppsFlyerLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppsFlyerLib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +117,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3F6C781FBA36C900DDF0AC /* AdSupport.framework in Frameworks */,
+				8D3F6C761FBA36AC00DDF0AC /* iAd.framework in Frameworks */,
+				8D3F6C721FBA360500DDF0AC /* libGoogleAnalyticsServices.a in Frameworks */,
+				8D3F6C701FBA35EA00DDF0AC /* SystemConfiguration.framework in Frameworks */,
+				8D3F6C6E1FBA35D300DDF0AC /* CoreData.framework in Frameworks */,
+				8D3F6C521FBA34AC00DDF0AC /* UIKit.framework in Frameworks */,
+				8D3F6C511FBA34A300DDF0AC /* Security.framework in Frameworks */,
+				8D3F6C501FBA349A00DDF0AC /* QuartzCore.framework in Frameworks */,
+				8D3F6C4F1FBA349200DDF0AC /* OpenGLES.framework in Frameworks */,
+				8D3F6C871FBA3BAE00DDF0AC /* libAppsFlyerLib.a in Frameworks */,
+				8D3F6C4E1FBA348800DDF0AC /* MobileCoreServices.framework in Frameworks */,
+				8D3F6C4D1FBA347F00DDF0AC /* Foundation.framework in Frameworks */,
+				8D3F6C4C1FBA347300DDF0AC /* CoreVideo.framework in Frameworks */,
+				8D3F6C4B1FBA346A00DDF0AC /* CoreMedia.framework in Frameworks */,
+				8D3F6C4A1FBA345D00DDF0AC /* CoreGraphics.framework in Frameworks */,
+				8D3F6C491FBA344F00DDF0AC /* AVFoundation.framework in Frameworks */,
+				8D3F6C481FBA344000DDF0AC /* AudioToolbox.framework in Frameworks */,
+				8D3F6C471FBA343700DDF0AC /* Accelerate.framework in Frameworks */,
+				8D3F6C1E1FBA334600DDF0AC /* libCardIO.a in Frameworks */,
+				8D3F6C1F1FBA334600DDF0AC /* libopencv_core.a in Frameworks */,
+				8D3F6C201FBA334600DDF0AC /* libopencv_imgproc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +150,7 @@
 				8D3F6C061FBA1E0B00DDF0AC /* NFrameWork.podspec */,
 				8D19E7C11FBA127A004453C0 /* NFrameWork */,
 				8D19E7C01FBA127A004453C0 /* Products */,
+				8D3F6C3A1FBA341F00DDF0AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +165,97 @@
 		8D19E7C11FBA127A004453C0 /* NFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				8D3F6C7D1FBA3BAE00DDF0AC /* AppsFlyer */,
+				8D3F6C531FBA357E00DDF0AC /* GoogleAnalytics */,
+				8D3F6C081FBA334600DDF0AC /* CardIO */,
 				8D19E7C21FBA127A004453C0 /* NFrameWork.h */,
 				8D19E7C31FBA127A004453C0 /* Info.plist */,
 				8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */,
 				8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */,
 			);
 			path = NFrameWork;
+			sourceTree = "<group>";
+		};
+		8D3F6C081FBA334600DDF0AC /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F6C091FBA334600DDF0AC /* CardIO.h */,
+				8D3F6C0A1FBA334600DDF0AC /* CardIO.m */,
+				8D3F6C0B1FBA334600DDF0AC /* CardIOCreditCardInfo.h */,
+				8D3F6C0C1FBA334600DDF0AC /* CardIODetectionMode.h */,
+				8D3F6C0D1FBA334600DDF0AC /* CardIOPaymentViewController.h */,
+				8D3F6C0E1FBA334600DDF0AC /* CardIOPaymentViewControllerDelegate.h */,
+				8D3F6C0F1FBA334600DDF0AC /* CardIOUtilities.h */,
+				8D3F6C101FBA334600DDF0AC /* CardIOView.h */,
+				8D3F6C111FBA334600DDF0AC /* CardIOViewDelegate.h */,
+				8D3F6C121FBA334600DDF0AC /* libCardIO.a */,
+				8D3F6C131FBA334600DDF0AC /* libopencv_core.a */,
+				8D3F6C141FBA334600DDF0AC /* libopencv_imgproc.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		8D3F6C3A1FBA341F00DDF0AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F6C771FBA36C300DDF0AC /* AdSupport.framework */,
+				8D3F6C751FBA36A500DDF0AC /* iAd.framework */,
+				8D3F6C6F1FBA35E100DDF0AC /* SystemConfiguration.framework */,
+				8D3F6C6D1FBA35C300DDF0AC /* CoreData.framework */,
+				8D3F6C451FBA342000DDF0AC /* Accelerate.framework */,
+				8D3F6C3E1FBA342000DDF0AC /* AudioToolbox.framework */,
+				8D3F6C3F1FBA342000DDF0AC /* AVFoundation.framework */,
+				8D3F6C3B1FBA341F00DDF0AC /* CoreGraphics.framework */,
+				8D3F6C401FBA342000DDF0AC /* CoreMedia.framework */,
+				8D3F6C411FBA342000DDF0AC /* CoreVideo.framework */,
+				8D3F6C421FBA342000DDF0AC /* Foundation.framework */,
+				8D3F6C3D1FBA342000DDF0AC /* MobileCoreServices.framework */,
+				8D3F6C431FBA342000DDF0AC /* OpenGLES.framework */,
+				8D3F6C441FBA342000DDF0AC /* QuartzCore.framework */,
+				8D3F6C461FBA342000DDF0AC /* Security.framework */,
+				8D3F6C3C1FBA341F00DDF0AC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D3F6C531FBA357E00DDF0AC /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F6C711FBA360500DDF0AC /* libGoogleAnalyticsServices.a */,
+				8D3F6C541FBA357E00DDF0AC /* Changelog.txt */,
+				8D3F6C601FBA357E00DDF0AC /* Readme.txt */,
+				8D3F6C551FBA357E00DDF0AC /* Library */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		8D3F6C551FBA357E00DDF0AC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F6C561FBA357E00DDF0AC /* GAI.h */,
+				8D3F6C571FBA357E00DDF0AC /* GAIDictionaryBuilder.h */,
+				8D3F6C581FBA357E00DDF0AC /* GAIEcommerceFields.h */,
+				8D3F6C591FBA357E00DDF0AC /* GAIEcommerceProduct.h */,
+				8D3F6C5A1FBA357E00DDF0AC /* GAIEcommerceProductAction.h */,
+				8D3F6C5B1FBA357E00DDF0AC /* GAIEcommercePromotion.h */,
+				8D3F6C5C1FBA357E00DDF0AC /* GAIFields.h */,
+				8D3F6C5D1FBA357E00DDF0AC /* GAILogger.h */,
+				8D3F6C5E1FBA357E00DDF0AC /* GAITrackedViewController.h */,
+				8D3F6C5F1FBA357E00DDF0AC /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8D3F6C7D1FBA3BAE00DDF0AC /* AppsFlyer */ = {
+			isa = PBXGroup;
+			children = (
+				8D3F6C7E1FBA3BAE00DDF0AC /* AppsFlyerCrossPromotionHelper.h */,
+				8D3F6C7F1FBA3BAE00DDF0AC /* AppsFlyerLinkGenerator.h */,
+				8D3F6C801FBA3BAE00DDF0AC /* AppsFlyerShareInviteHelper.h */,
+				8D3F6C811FBA3BAE00DDF0AC /* AppsFlyerTracker.h */,
+				8D3F6C821FBA3BAE00DDF0AC /* libAppsFlyerLib.a */,
+			);
+			path = AppsFlyer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,8 +265,30 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3F6C621FBA357E00DDF0AC /* GAI.h in Headers */,
 				8D19E7C41FBA127A004453C0 /* NFrameWork.h in Headers */,
+				8D3F6C151FBA334600DDF0AC /* CardIO.h in Headers */,
+				8D3F6C6B1FBA357E00DDF0AC /* GAITracker.h in Headers */,
+				8D3F6C831FBA3BAE00DDF0AC /* AppsFlyerCrossPromotionHelper.h in Headers */,
+				8D3F6C641FBA357E00DDF0AC /* GAIEcommerceFields.h in Headers */,
+				8D3F6C691FBA357E00DDF0AC /* GAILogger.h in Headers */,
+				8D3F6C841FBA3BAE00DDF0AC /* AppsFlyerLinkGenerator.h in Headers */,
+				8D3F6C1C1FBA334600DDF0AC /* CardIOView.h in Headers */,
+				8D3F6C681FBA357E00DDF0AC /* GAIFields.h in Headers */,
+				8D3F6C671FBA357E00DDF0AC /* GAIEcommercePromotion.h in Headers */,
+				8D3F6C181FBA334600DDF0AC /* CardIODetectionMode.h in Headers */,
+				8D3F6C851FBA3BAE00DDF0AC /* AppsFlyerShareInviteHelper.h in Headers */,
+				8D3F6C1D1FBA334600DDF0AC /* CardIOViewDelegate.h in Headers */,
+				8D3F6C631FBA357E00DDF0AC /* GAIDictionaryBuilder.h in Headers */,
+				8D3F6C1A1FBA334600DDF0AC /* CardIOPaymentViewControllerDelegate.h in Headers */,
 				8D3F6BBF1FBA150B00DDF0AC /* NConfig.h in Headers */,
+				8D3F6C1B1FBA334600DDF0AC /* CardIOUtilities.h in Headers */,
+				8D3F6C861FBA3BAE00DDF0AC /* AppsFlyerTracker.h in Headers */,
+				8D3F6C651FBA357E00DDF0AC /* GAIEcommerceProduct.h in Headers */,
+				8D3F6C6A1FBA357E00DDF0AC /* GAITrackedViewController.h in Headers */,
+				8D3F6C191FBA334600DDF0AC /* CardIOPaymentViewController.h in Headers */,
+				8D3F6C171FBA334600DDF0AC /* CardIOCreditCardInfo.h in Headers */,
+				8D3F6C661FBA357E00DDF0AC /* GAIEcommerceProductAction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3F6BC01FBA150B00DDF0AC /* NConfig.m in Sources */,
+				8D3F6C161FBA334600DDF0AC /* CardIO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -268,9 +488,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NFrameWork",
+				);
 				INFOPLIST_FILE = NFrameWork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NFrameWork/CardIO",
+					"$(PROJECT_DIR)/NFrameWork/GoogleAnalytics",
+					"$(PROJECT_DIR)/NFrameWork/AppsFlyer",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = neerajgoyal.NFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -287,9 +517,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NFrameWork",
+				);
 				INFOPLIST_FILE = NFrameWork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NFrameWork/CardIO",
+					"$(PROJECT_DIR)/NFrameWork/GoogleAnalytics",
+					"$(PROJECT_DIR)/NFrameWork/AppsFlyer",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = neerajgoyal.NFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

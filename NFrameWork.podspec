@@ -31,31 +31,15 @@ s.source           = { :git => 'https://github.com/neerajgoyal12/NFrameWork.git'
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'NCore/Classes/**/*'
+s.source_files = 'NFrameWork/*.{h,m}'
+s.dependency 'NCore'
 
 # s.resource_bundles = {
 #   'NCore' => ['NCore/Assets/*.png']
 # }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
-s.frameworks = 'Foundation', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'CoreGraphics','CoreTelephony'
+s.frameworks = 'CoreText', 'CoreTelephony'
 s.libraries = 'c++', 'sqlite3', 'z'
-# s.vendored_framework = 'Firebase'
-s.dependency 'CardIO'
-s.dependency 'GoogleAnalytics'
-s.dependency 'AppsFlyerFramework'
-#  s.dependency 'GoogleToolboxForMac'
-#  s.dependency 'nanopb'
-#  s.dependency 'Protobuf'
-#  s.dependency 'FirebaseInstanceID'
-#  s.dependency 'FirebaseAnalytics'
-#  s.dependency 'FirebaseABTesting'
 
-#s.pod_target_xcconfig = {
-#'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Firebase $(PODS_ROOT)/FirebaseCore/Frameworks $(PODS_ROOT)/#FirebaseRemoteConfig/Frameworks $(PODS_ROOT)/FirebaseInstanceID/Frameworks $(PODS_ROOT)/FirebaseAnalytics/Frameworks #$(PODS_ROOT)/FirebaseABTesting/Frameworks'
-#}
-
-#s.pod_target_xcconfig = {
-#'OTHER_LDFLAGS' => '$(inherited) -ObjC'
-#}
 end
