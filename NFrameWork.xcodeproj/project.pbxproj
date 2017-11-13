@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8D19E7C41FBA127A004453C0 /* NFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D19E7C21FBA127A004453C0 /* NFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3F6BBF1FBA150B00DDF0AC /* NConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */; };
+		8D3F6BC01FBA150B00DDF0AC /* NConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D19E7BF1FBA127A004453C0 /* NFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D19E7C21FBA127A004453C0 /* NFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFrameWork.h; sourceTree = "<group>"; };
 		8D19E7C31FBA127A004453C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NConfig.h; sourceTree = "<group>"; };
+		8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				8D19E7C21FBA127A004453C0 /* NFrameWork.h */,
 				8D19E7C31FBA127A004453C0 /* Info.plist */,
+				8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */,
+				8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */,
 			);
 			path = NFrameWork;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D19E7C41FBA127A004453C0 /* NFrameWork.h in Headers */,
+				8D3F6BBF1FBA150B00DDF0AC /* NConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3F6BC01FBA150B00DDF0AC /* NConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
