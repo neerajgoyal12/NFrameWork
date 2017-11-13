@@ -10,6 +10,7 @@
 		8D19E7C41FBA127A004453C0 /* NFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D19E7C21FBA127A004453C0 /* NFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D3F6BBF1FBA150B00DDF0AC /* NConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */; };
 		8D3F6BC01FBA150B00DDF0AC /* NConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */; };
+		8D3F6C071FBA1E0B00DDF0AC /* NFrameWork.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F6C061FBA1E0B00DDF0AC /* NFrameWork.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +19,7 @@
 		8D19E7C31FBA127A004453C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NConfig.h; sourceTree = "<group>"; };
 		8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NConfig.m; sourceTree = "<group>"; };
-		8D3F6BE31FBA17DB00DDF0AC /* NFrameWork.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFrameWork.podspec; sourceTree = "<group>"; };
+		8D3F6C061FBA1E0B00DDF0AC /* NFrameWork.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NFrameWork.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		8D19E7B51FBA127A004453C0 = {
 			isa = PBXGroup;
 			children = (
+				8D3F6C061FBA1E0B00DDF0AC /* NFrameWork.podspec */,
 				8D19E7C11FBA127A004453C0 /* NFrameWork */,
 				8D19E7C01FBA127A004453C0 /* Products */,
 			);
@@ -55,7 +57,6 @@
 				8D19E7C31FBA127A004453C0 /* Info.plist */,
 				8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */,
 				8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */,
-				8D3F6BE31FBA17DB00DDF0AC /* NFrameWork.podspec */,
 			);
 			path = NFrameWork;
 			sourceTree = "<group>";
@@ -130,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3F6C071FBA1E0B00DDF0AC /* NFrameWork.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
