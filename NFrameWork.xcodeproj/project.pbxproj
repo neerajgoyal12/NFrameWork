@@ -18,6 +18,7 @@
 		8D19E7C31FBA127A004453C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NConfig.h; sourceTree = "<group>"; };
 		8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NConfig.m; sourceTree = "<group>"; };
+		8D3F6BE31FBA17DB00DDF0AC /* NFrameWork.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFrameWork.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 				8D19E7C31FBA127A004453C0 /* Info.plist */,
 				8D3F6BBD1FBA150B00DDF0AC /* NConfig.h */,
 				8D3F6BBE1FBA150B00DDF0AC /* NConfig.m */,
+				8D3F6BE31FBA17DB00DDF0AC /* NFrameWork.podspec */,
 			);
 			path = NFrameWork;
 			sourceTree = "<group>";
